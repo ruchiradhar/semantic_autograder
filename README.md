@@ -7,19 +7,19 @@
 [![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Production-ready machine learning pipeline for student performance prediction with automated model selection, robust preprocessing, and streamlined deployment capabilities.**
+> **ML pipeline for student performance prediction with automated model selection, robust preprocessing, and streamlined deployment capabilities.**
 
 ## 🚀 Overview
 
 Semantic Autograder is an enterprise-grade ML solution that predicts student mathematics performance using demographic and academic indicators. Built with industry best practices, it features automated hyperparameter tuning, comprehensive data validation, and production-ready artifact management.
 
-**🎯 Key Value Propositions:**
+**🎯 Key Features:**
 - **Automated ML Pipeline**: End-to-end automation from raw data to production-ready models
 - **Model Selection**: Intelligent comparison of multiple algorithms with hyperparameter optimization
 - **Production Ready**: Serialized artifacts, robust error handling, and comprehensive logging
 - **Developer Experience**: CLI tools, pre-commit hooks, and standardized project structure
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
