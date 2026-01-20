@@ -1,0 +1,28 @@
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "B", "UP", "W"]
+ignore = [
+  # Allow unused imports in __init__.py
+  "F401",
+]
+exclude = [
+  "notebooks",
+  "performance_compass.egg-info",
+]
+
+[tool.ruff.isort]
+known-first-party = ["src"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+exclude = [
+  "notebooks",
+]

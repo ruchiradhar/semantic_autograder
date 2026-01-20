@@ -23,11 +23,16 @@ def get_requirements(file_path:str)-> List[str]:
 
 
 setup (
-    name='performance_compass',
-    version='0.0.1',
+    name='semantic_autograder',
+    version='0.1.0',
     author='Ruchira',
     author_email='rudh@di.ku.dk',
     packages=find_packages(),
-    install_requires= get_requirements('requirements.txt')
-
+    install_requires=get_requirements('requirements.txt'),
+    entry_points={
+        'console_scripts': [
+            'sa-train=src.pipeline.train_pipeline:main',
+            'sa-predict=src.pipeline.predict_pipeline:cli',
+        ]
+    }
 )
